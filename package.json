@@ -1,0 +1,22 @@
+{
+  "name": "browserslist",
+  "version": "1.0.0",
+  "description": "Test of browserslist package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdilar/browserslist.git"
+  },
+  "keywords": [
+    "browserslist"
+  ],
+  "author": "Saeed Abdilar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdilar/browserslist/issues"
+  },
+  "homepage": "https://github.com/Abdilar/browserslist#readme"
+}
