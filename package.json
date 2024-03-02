@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Abdilar/browserslist/issues"
   },
-  "homepage": "https://github.com/Abdilar/browserslist#readme"
+  "homepage": "https://github.com/Abdilar/browserslist#readme",
+  "dependencies": {
+    "browserslist": "^4.23.0"
+  }
 }
