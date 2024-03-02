@@ -4,7 +4,8 @@
   "description": "Test of browserslist package",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "supportedBrowsers": "echo \"export default $(browserslist-useragent-regexp --allowHigherVersions);\" > src/supportedBrowsers.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,8 @@
   "homepage": "https://github.com/Abdilar/browserslist#readme",
   "dependencies": {
     "browserslist": "^4.23.0"
+  },
+  "devDependencies": {
+    "browserslist-useragent-regexp": "^4.1.1"
   }
 }
