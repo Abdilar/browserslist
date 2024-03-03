@@ -1,0 +1,15 @@
+# Browsers that we support
+# NOTE: Validate this config on the https://browsersl.ist/
+
+[production]
+last 1 version
+> 1%
+not dead # no browsers without security updates, and all versions of IE 
+
+[modern]
+last 1 Chrome version
+last 1 Firefox version
+last 1 Safari version
+
+[ssr]
+node 16
